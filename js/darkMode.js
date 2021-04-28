@@ -15,15 +15,15 @@ function dark(){
     var eduTit = document.getElementById('eduT');
     var hab = document.getElementById('habilidades');
     var habTit = document.getElementById('habTit');
-    var dvht = document.getElementsByClassName('containere')[0];
+    var dvht = document.getElementsByClassName('barra')[0];
     var ht = document.getElementsByClassName('skills')[0];
-    var dvcs = document.getElementsByClassName('containere')[1];
+    var dvcs = document.getElementsByClassName('barra')[1];
     var cs = document.getElementsByClassName('skills')[1];
-    var dvjs = document.getElementsByClassName('containere')[2];
+    var dvjs = document.getElementsByClassName('barra')[2];
     var js = document.getElementsByClassName('skills')[2];
-    var dvjv = document.getElementsByClassName('containere')[3];
+    var dvjv = document.getElementsByClassName('barra')[3];
     var jv = document.getElementsByClassName('skills')[3];
-    var dvmy = document.getElementsByClassName('containere')[4];
+    var dvmy = document.getElementsByClassName('barra')[4];
     var my = document.getElementsByClassName('skills')[4];
     var foo = document.getElementsByTagName('footer')[0];
     var btn = document.querySelector('a.btx');
@@ -92,7 +92,7 @@ function dark(){
         dvmy.style.backgroundColor = '#dddddd';
         my.style.backgroundColor='#727cf5';
         foo.style.color='black';
-        btn.style.backgroundColor='#727cf5';
+        btn.style.backgroundColor='#6c757d';
         x=1;
     }
 }
