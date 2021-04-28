@@ -1,5 +1,4 @@
 var x = 1;
-
 function dark(){
     var icone = document.getElementsByClassName('darkIcon')[0];
     var icone2 = document.getElementsByClassName('darkIcon')[1];
@@ -15,19 +14,18 @@ function dark(){
     var eduTit = document.getElementById('eduT');
     var hab = document.getElementById('habilidades');
     var habTit = document.getElementById('habTit');
-    var dvht = document.getElementsByClassName('barra')[0];
+    var dvht = document.getElementsByClassName('containere')[0];
     var ht = document.getElementsByClassName('skills')[0];
-    var dvcs = document.getElementsByClassName('barra')[1];
+    var dvcs = document.getElementsByClassName('containere')[1];
     var cs = document.getElementsByClassName('skills')[1];
-    var dvjs = document.getElementsByClassName('barra')[2];
+    var dvjs = document.getElementsByClassName('containere')[2];
     var js = document.getElementsByClassName('skills')[2];
-    var dvjv = document.getElementsByClassName('barra')[3];
+    var dvjv = document.getElementsByClassName('containere')[3];
     var jv = document.getElementsByClassName('skills')[3];
-    var dvmy = document.getElementsByClassName('barra')[4];
+    var dvmy = document.getElementsByClassName('containere')[4];
     var my = document.getElementsByClassName('skills')[4];
     var foo = document.getElementsByTagName('footer')[0];
     var btn = document.querySelector('a.btx');
-
  if(x==1){
         //modo dark
         icone.style.color = 'white';
@@ -60,6 +58,7 @@ function dark(){
         my.style.backgroundColor='#7f39fb';
         foo.style.color='#505050';
         btn.style.backgroundColor='#7f39fb';
+        
         x=0;
     }else{
         //modo light

@@ -7,6 +7,7 @@ body {
     background: linear-gradient( rgb(173, 168, 243) 0%, rgba(210,210,237,1) 35%, rgba(250,250,250,1) 100%);
 }
 
+
 #avatar {
     position: relative;
     padding: 20px;
@@ -52,6 +53,7 @@ img.fotoPerfil {
     width: 80%;
     margin-top: 7%;
 }
+
 
 
 .eduTitulo{
@@ -175,6 +177,9 @@ img.fotoPerfil {
     right: -55.8px;
 }
 
+
+
+
 .corpoSkill{
     margin: auto;
     width: 80%;
@@ -187,7 +192,7 @@ img.fotoPerfil {
     padding-top: 15px;   
 }
 
-.barra {
+.containere {
     width: 100%;
     background-color: #ddd;
   }
