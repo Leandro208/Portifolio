@@ -4,9 +4,8 @@ body {
     font-size: 15px;
     letter-spacing: 2px;
     margin-bottom: 10vh;
-    background: linear-gradient(90deg, rgba(151,145,245,1) 0%, rgba(210,210,237,1) 35%, rgba(250,250,250,1) 100%);
+    background: linear-gradient( rgb(173, 168, 243) 0%, rgba(210,210,237,1) 35%, rgba(250,250,250,1) 100%);
 }
-
 
 #avatar {
     position: relative;
@@ -182,26 +181,26 @@ img.fotoPerfil {
     color:#124265;
     font-weight: bolder;
     margin-top: 5%;
-   
-}
-.habTitulo{
-    margin-top: 25px;
 }
 
-.container {
+.habTitulo{
+    padding-top: 15px;   
+}
+
+.containere {
     width: 100%;
     background-color: #ddd;
-   
   }
   
+
   .skills {
     text-align: right;
     padding-top: 5px;
     padding-bottom: 10px;
     color: white;
-    
   }
   
+
   .html {width: 90%; background-color: #727cf5;}
   .css {width: 60%; background-color: #727cf5;}
   .js {width: 40%; background-color: #727cf5;}

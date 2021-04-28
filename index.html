@@ -7,13 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0c25c3c076.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     
     <title>Leandro Barbosa</title>
 </head>
-<body>
-    
+<body >
+    <i class="far fa-sun darkIcon"></i>
+    <label class="esque">
+        <input type="checkbox" onclick="dark()">
+        <span class="check"></span>
+    </label>
+    <i class="far fa-moon darkIcon"></i>
+
     <!-- Avatar (foto nome, links) -->
     <div id="avatar">
         <img src="assets/LB.png" alt="Foto de perfil" class="fotoPerfil">
@@ -30,8 +37,8 @@
          
     </div>
  <!--Sobre mim-->
-    <div id="0" class="card">
-        <div class="card-body ">
+    <div  class="card">
+        <div id="corpoSobre" class="card-body ">
             <p>Olá, me chamo Leandro sou Técnico em informatica pelo IFRN. Tenho conhecimentos de manutenção de computadores, entrei no ramo da programação no ano de 2017, e desde então tenho conhecimento das seguintes linguagens: Java, JavaScript, mysql, PHP e também a parte de desenvolvimento web(HTML, CSS). Tenho conhecimentos previos da area de eletronica e redes de computadores, além de experiência com o pacote Office.</p>
             <a class="btn btn-secondary btx" href="assets/curriculo.pdf" role="button">Download do Curriculo</a>
         </div>
@@ -42,8 +49,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
-                        <div class="card-body">
-                            <div class="eduTitulo">
+                        <div id="corpoTime" class="card-body">
+                            <div id="eduT" class="eduTitulo">
                                 <h4 class="text-uppercase text-center"><i class="title-icon fa fa-graduation-cap"></i>Educação</h4>
                                 </div>
                             <div id="content">
@@ -80,31 +87,31 @@
     
 <!--Habilidades-->
 <div class=" card corpoSkill">
-    <div class="habTitulo">
+    <div id="habTit" class="habTitulo">
     <h4 class="text-uppercase text-center"><i class="title-icon fa fa-sliders"></i>HABILIDADES</h4>
     </div>
-    <div class="card-body">
+    <div id="habilidades" class="card-body">
         <p>HTML</p>
-        <div class="container">
+        <div class="containere">
         <div class="skills html">90%</div>
         </div>
 
         <p>CSS</p>
-        <div class="container">
+        <div class="containere">
         <div class="skills css">60%</div>
         </div>
 
         <p>JavaScript</p>
-        <div class="container">
+        <div class="containere">
         <div class="skills js">40%</div>
         </div>
 
         <p>java</p>
-        <div class="container">
+        <div class="containere">
         <div class="skills java">90%</div>
         </div>
         <p>MySql</p>
-        <div class="container">
+        <div class="containere">
         <div class="skills msql">80%</div>
         </div>
 </div>
@@ -124,7 +131,7 @@
         </p>
     </div>
 </footer>
-
+     <script src="js/darkMode.js"></script>
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
