@@ -10,7 +10,7 @@ body {
 
 #avatar {
     position: relative;
-    padding: 20px;
+   
 }
 
 .fotoPerfil {
@@ -19,7 +19,8 @@ body {
     margin-right: auto;
     height: auto;
     max-width: 250px;
-    margin-top: 19%;
+    margin-top: 10%;
+    border: 5px solid #fff;
 }
 
 img.fotoPerfil {
